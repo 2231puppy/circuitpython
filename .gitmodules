@@ -184,3 +184,6 @@
 [submodule "frozen/Adafruit_CircuitPython_MIDI"]
 	path = frozen/Adafruit_CircuitPython_MIDI
 	url = https://github.com/adafruit/Adafruit_CircuitPython_MIDI
+[submodule "frozen/CircuitPython_RoboCloudLib"]
+	path = frozen/CircuitPython_RoboCloudLib
+	url = https://github.com/2231puppy/CircuitPython_RoboCloudLib

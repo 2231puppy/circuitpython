@@ -296,6 +296,7 @@ jobs:
         - "pimoroni_tiny2040"
         - "pirkey_m0"
         - "pitaya_go"
+	- "projectstida_robocloud"
         - "pyb_nano_v2"
         - "pybadge"
         - "pybadge_airlift"

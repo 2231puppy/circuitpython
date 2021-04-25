@@ -26,7 +26,7 @@
 
 // Micropython setup
 
-#define MICROPY_HW_BOARD_NAME       "ProjectStida RoboCloud"
+#define MICROPY_HW_BOARD_NAME       "Project Stida RoboCloud"
 #define MICROPY_HW_MCU_NAME         "ESP32S2"
 
 #define CIRCUITPY_BOOT_BUTTON (&pin_GPIO0)
@@ -38,9 +38,5 @@
 #define DEFAULT_I2C_BUS_SCL (&pin_GPIO34)
 #define DEFAULT_I2C_BUS_SDA (&pin_GPIO33)
 
-#define DEFAULT_SPI_BUS_SCK (&pin_GPIO36)
-#define DEFAULT_SPI_BUS_MOSI (&pin_GPIO35)
-#define DEFAULT_SPI_BUS_MISO (&pin_GPIO37)
-
-#define DEFAULT_UART_BUS_RX (&pin_GPIO5)
-#define DEFAULT_UART_BUS_TX (&pin_GPIO6)
+#define DEFAULT_UART_BUS_RX (&pin_GPIO44)
+#define DEFAULT_UART_BUS_TX (&pin_GPIO43)
